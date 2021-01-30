@@ -6,7 +6,7 @@ To install this project, you will need:
 ## Deployment
     $ cd <path_to_matterllo_repository>
 
-    $ pip install -r requirements_base.txt
+    $ pip install -r requirements.txt
 
     $ python manage.py migrate
 

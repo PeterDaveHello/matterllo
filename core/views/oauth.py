@@ -5,7 +5,7 @@ from django.conf import settings
 
 apiKey = settings.TRELLO_APIKEY
 
-@method_decorator(login_required, name='dispatch')
+#@method_decorator(login_required, name='dispatch')
 class OauthView(TemplateView):
     # model = Bridge
     template_name = "core/oauth.html"
